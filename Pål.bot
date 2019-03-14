@@ -1,0 +1,15 @@
+{
+    "name": "PÅL",
+    "description": "",
+    "secretKey": "",
+    "services": [
+        {
+            "appId": "",
+            "id": "f5774430-63fd-11e8-aed7-498ca26e8dac",
+            "type": "endpoint",
+            "appPassword": "",
+            "endpoint": "http://localhost:3984/api/messages",
+            "name": "http://localhost:3984/api/messages"
+        }
+    ]
+}

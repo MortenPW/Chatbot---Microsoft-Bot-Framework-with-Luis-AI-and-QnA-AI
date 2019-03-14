@@ -1,0 +1,4746 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "Paaminner-Paal-a42c",
+  "desc": "Main AI for Påminner-Pål",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "AddAllergy"
+    },
+    {
+      "name": "AddItem"
+    },
+    {
+      "name": "Advice"
+    },
+    {
+      "name": "Bye"
+    },
+    {
+      "name": "Cancel"
+    },
+    {
+      "name": "Confirm"
+    },
+    {
+      "name": "Deny"
+    },
+    {
+      "name": "Fysj"
+    },
+    {
+      "name": "GetRecipe"
+    },
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "HarDetFint"
+    },
+    {
+      "name": "Help"
+    },
+    {
+      "name": "IkkeSant"
+    },
+    {
+      "name": "Joke"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "ShowList"
+    },
+    {
+      "name": "WhatsYourName"
+    },
+    {
+      "name": "YoureWelcome"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "AddAllergy",
+      "subLists": [
+        {
+          "canonicalForm": "Glutenholdig korn",
+          "list": [
+            "gluten"
+          ]
+        },
+        {
+          "canonicalForm": "Skalldyr",
+          "list": []
+        },
+        {
+          "canonicalForm": "Egg",
+          "list": []
+        },
+        {
+          "canonicalForm": "Fisk",
+          "list": [
+            "fesk"
+          ]
+        },
+        {
+          "canonicalForm": "Peanøtter",
+          "list": []
+        },
+        {
+          "canonicalForm": "Soya",
+          "list": []
+        },
+        {
+          "canonicalForm": "Melk",
+          "list": [
+            "laktose"
+          ]
+        },
+        {
+          "canonicalForm": "Nøtter",
+          "list": []
+        },
+        {
+          "canonicalForm": "Selleri",
+          "list": []
+        },
+        {
+          "canonicalForm": "Sennep",
+          "list": []
+        },
+        {
+          "canonicalForm": "Sesamfrø",
+          "list": []
+        },
+        {
+          "canonicalForm": "Lupin",
+          "list": []
+        },
+        {
+          "canonicalForm": "Bløtdyr",
+          "list": []
+        },
+        {
+          "canonicalForm": "Svoveldioksid og sulfitt",
+          "list": [
+            "svoveldioksid",
+            "sulfitt"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "AddItem",
+      "subLists": [
+        {
+          "canonicalForm": "Lys",
+          "list": []
+        },
+        {
+          "canonicalForm": "Barnebøker",
+          "list": []
+        },
+        {
+          "canonicalForm": "Hermetisert frukt og grønt",
+          "list": [
+            "hermetisert frukt",
+            "hermetisert grønt"
+          ]
+        },
+        {
+          "canonicalForm": "Frukt",
+          "list": []
+        },
+        {
+          "canonicalForm": "Grønnsaker",
+          "list": []
+        },
+        {
+          "canonicalForm": "Urter og spirer",
+          "list": [
+            "urter",
+            "spirer"
+          ]
+        },
+        {
+          "canonicalForm": "Frø, nøtter og tørket frukt",
+          "list": [
+            "frø",
+            "nøtter",
+            "tørket frukt"
+          ]
+        },
+        {
+          "canonicalForm": "Frossen frukt og grønt",
+          "list": [
+            "frossen frukt",
+            "frossen grønt"
+          ]
+        },
+        {
+          "canonicalForm": "Poteter",
+          "list": [
+            "potet"
+          ]
+        },
+        {
+          "canonicalForm": "Salater og kål",
+          "list": [
+            "salater",
+            "salat",
+            "kål"
+          ]
+        },
+        {
+          "canonicalForm": "Ferdigkuttet frukt og grønt",
+          "list": [
+            "ferdigkuttet frukt",
+            "ferdigkuttet grønt"
+          ]
+        },
+        {
+          "canonicalForm": "Ferdig kuttede salater",
+          "list": [
+            "ferdigkuttede salater",
+            "ferdigkuttet salat"
+          ]
+        },
+        {
+          "canonicalForm": "Bær",
+          "list": []
+        },
+        {
+          "canonicalForm": "Roser",
+          "list": []
+        },
+        {
+          "canonicalForm": "Snittblomster",
+          "list": []
+        },
+        {
+          "canonicalForm": "Grønne planter",
+          "list": [
+            "planter"
+          ]
+        },
+        {
+          "canonicalForm": "Ferske brød",
+          "list": [
+            "brød"
+          ]
+        },
+        {
+          "canonicalForm": "Knekkebrød",
+          "list": []
+        },
+        {
+          "canonicalForm": "Pølsebrød, hamburgerbrød og boller",
+          "list": [
+            "pølsebrød",
+            "hamburgerbrød",
+            "boller"
+          ]
+        },
+        {
+          "canonicalForm": "Frokostblandinger og gryn",
+          "list": [
+            "frokostblandinger",
+            "gryn",
+            "frokostblanding"
+          ]
+        },
+        {
+          "canonicalForm": "Frosne brød og rundstykker",
+          "list": [
+            "frosne brød",
+            "frosne rundstykker"
+          ]
+        },
+        {
+          "canonicalForm": "Deiger og bunner",
+          "list": [
+            "deiger",
+            "bunner",
+            "deig",
+            "bunn"
+          ]
+        },
+        {
+          "canonicalForm": "Langtidsholdbare brød",
+          "list": [
+            "holdbare brød"
+          ]
+        },
+        {
+          "canonicalForm": "Melk",
+          "list": [
+            "melkeprodukt",
+            "melkeprodukter"
+          ]
+        },
+        {
+          "canonicalForm": "Egg",
+          "list": []
+        },
+        {
+          "canonicalForm": "Yoghurt",
+          "list": []
+        },
+        {
+          "canonicalForm": "Fløte og rømmeprodukter",
+          "list": [
+            "fløte",
+            "rømmeprodukter"
+          ]
+        },
+        {
+          "canonicalForm": "Smør og margarin",
+          "list": [
+            "smør",
+            "margarin"
+          ]
+        },
+        {
+          "canonicalForm": "Kylling, kalkun og and",
+          "list": [
+            "kylling",
+            "kalkun",
+            "and"
+          ]
+        },
+        {
+          "canonicalForm": "Pølser",
+          "list": [
+            "pølse"
+          ]
+        },
+        {
+          "canonicalForm": "Bacon og tilbehør",
+          "list": [
+            "bacon",
+            "tilbehør"
+          ]
+        },
+        {
+          "canonicalForm": "Kjøttdeig og Karbonadedeig",
+          "list": [
+            "kjøttdeig",
+            "karbonadedeig"
+          ]
+        },
+        {
+          "canonicalForm": "Hamburgere",
+          "list": [
+            "hamburger"
+          ]
+        },
+        {
+          "canonicalForm": "Kjøttboller og karbonader",
+          "list": [
+            "kjøttboller",
+            "karbonader"
+          ]
+        },
+        {
+          "canonicalForm": "Storfe",
+          "list": []
+        },
+        {
+          "canonicalForm": "Svin",
+          "list": []
+        },
+        {
+          "canonicalForm": "Lam og vilt",
+          "list": [
+            "lam",
+            "vilt"
+          ]
+        },
+        {
+          "canonicalForm": "Fersk fisk",
+          "list": [
+            "fesk",
+            "fisk"
+          ]
+        },
+        {
+          "canonicalForm": "Skalldyr",
+          "list": []
+        },
+        {
+          "canonicalForm": "Fiskekaker",
+          "list": []
+        },
+        {
+          "canonicalForm": "Hermetisert sjømat",
+          "list": []
+        },
+        {
+          "canonicalForm": "Frossen fisk og sjømat",
+          "list": [
+            "frossen fisk",
+            "frossen sjømat"
+          ]
+        },
+        {
+          "canonicalForm": "Røkt og gravet fisk",
+          "list": [
+            "røkt fisk",
+            "gravet fisk"
+          ]
+        },
+        {
+          "canonicalForm": "Gulost",
+          "list": []
+        },
+        {
+          "canonicalForm": "Smøreost og prim",
+          "list": [
+            "smøreost",
+            "prim"
+          ]
+        },
+        {
+          "canonicalForm": "Spesialoster",
+          "list": []
+        },
+        {
+          "canonicalForm": "Brunost",
+          "list": []
+        },
+        {
+          "canonicalForm": "Revet Ost",
+          "list": []
+        },
+        {
+          "canonicalForm": "Majones og tubepålegg",
+          "list": [
+            "majones",
+            "tubepålegg"
+          ]
+        },
+        {
+          "canonicalForm": "Kjøtt- og kyllingpålegg",
+          "list": [
+            "kjøttpålegg",
+            "kyllingpålegg"
+          ]
+        },
+        {
+          "canonicalForm": "Syltetøy",
+          "list": []
+        },
+        {
+          "canonicalForm": "Salatpålegg",
+          "list": []
+        },
+        {
+          "canonicalForm": "Fiskepålegg",
+          "list": []
+        },
+        {
+          "canonicalForm": "Leverpostei",
+          "list": []
+        },
+        {
+          "canonicalForm": "Spekemat og salami",
+          "list": [
+            "spekemat",
+            "salami"
+          ]
+        },
+        {
+          "canonicalForm": "Honning og søtpålegg",
+          "list": [
+            "honning",
+            "søtpålegg"
+          ]
+        },
+        {
+          "canonicalForm": "Pølser på grillen",
+          "list": []
+        },
+        {
+          "canonicalForm": "Hamburger på grillen",
+          "list": []
+        },
+        {
+          "canonicalForm": "Vegetar på grillen",
+          "list": [
+            "vegetar"
+          ]
+        },
+        {
+          "canonicalForm": "Kjøtt og kylling på grillen",
+          "list": [
+            "kjøtt på grillen",
+            "kylling på grillen"
+          ]
+        },
+        {
+          "canonicalForm": "Marinader og rubs",
+          "list": [
+            "marinader",
+            "marinade",
+            "rubs"
+          ]
+        },
+        {
+          "canonicalForm": "Ketchup, dressing og tilbehør",
+          "list": [
+            "ketchup",
+            "dressing",
+            "tilbehør"
+          ]
+        },
+        {
+          "canonicalForm": "Grønnsaker på grillen",
+          "list": []
+        },
+        {
+          "canonicalForm": "Hamburgerbrød og pølsebrød",
+          "list": [
+            "hamburgerbrød",
+            "pølsebrød"
+          ]
+        },
+        {
+          "canonicalForm": "Grillutstyr",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ferdigsauser",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ris og gryn",
+          "list": [
+            "ris",
+            "gryn"
+          ]
+        },
+        {
+          "canonicalForm": "Ferdige middagsretter",
+          "list": [
+            "Middags-kit og gryteretter"
+          ]
+        },
+        {
+          "canonicalForm": "Middags-kit og gryteretter",
+          "list": [
+            "middagskit",
+            "gryterett",
+            "gryteretter",
+            "middags-kit"
+          ]
+        },
+        {
+          "canonicalForm": "Middagstilbehør",
+          "list": []
+        },
+        {
+          "canonicalForm": "Taco- og pizzatilbehør",
+          "list": [
+            "taco",
+            "pizzatilbehør"
+          ]
+        },
+        {
+          "canonicalForm": "Supper",
+          "list": []
+        },
+        {
+          "canonicalForm": "Posesauser",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ferdigpizza",
+          "list": [
+            "Pasta og nudler"
+          ]
+        },
+        {
+          "canonicalForm": "Pasta og nudler",
+          "list": [
+            "pasta",
+            "nudler"
+          ]
+        },
+        {
+          "canonicalForm": "Middagsbaser",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kaffe",
+          "list": []
+        },
+        {
+          "canonicalForm": "Brus",
+          "list": []
+        },
+        {
+          "canonicalForm": "Vann og mineralvann",
+          "list": [
+            "vann",
+            "mineralvann"
+          ]
+        },
+        {
+          "canonicalForm": "Juice",
+          "list": []
+        },
+        {
+          "canonicalForm": "Saft",
+          "list": []
+        },
+        {
+          "canonicalForm": "Te",
+          "list": []
+        },
+        {
+          "canonicalForm": "Energidrikk",
+          "list": []
+        },
+        {
+          "canonicalForm": "Smoothie",
+          "list": []
+        },
+        {
+          "canonicalForm": "Iste",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kakao og sjokoladepulver",
+          "list": [
+            "kakao",
+            "sjokoladepulver"
+          ]
+        },
+        {
+          "canonicalForm": "Øl",
+          "list": [
+            "øl",
+            "brygg"
+          ]
+        },
+        {
+          "canonicalForm": "Spesialøl og import",
+          "list": [
+            "spesialøl",
+            "importøl",
+            "import"
+          ]
+        },
+        {
+          "canonicalForm": "Cider og rusbrus",
+          "list": [
+            "cider",
+            "rusbrus"
+          ]
+        },
+        {
+          "canonicalForm": "Blandevann",
+          "list": []
+        },
+        {
+          "canonicalForm": "Alkoholfritt",
+          "list": []
+        },
+        {
+          "canonicalForm": "Oljer og dressinger",
+          "list": [
+            "oljer",
+            "olje",
+            "dressing",
+            "dressinger"
+          ]
+        },
+        {
+          "canonicalForm": "Krydder",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ketchup og sennep",
+          "list": [
+            "ketchup",
+            "sennep",
+            "ketsjup"
+          ]
+        },
+        {
+          "canonicalForm": "Buljong og fond",
+          "list": [
+            "buljong",
+            "fond"
+          ]
+        },
+        {
+          "canonicalForm": "Kryddermiks",
+          "list": []
+        },
+        {
+          "canonicalForm": "Mel og sukker",
+          "list": [
+            "mel",
+            "sukker"
+          ]
+        },
+        {
+          "canonicalForm": "Baketilbehør",
+          "list": [
+            "baking"
+          ]
+        },
+        {
+          "canonicalForm": "Ferdigmikser",
+          "list": []
+        },
+        {
+          "canonicalForm": "Dessert",
+          "list": []
+        },
+        {
+          "canonicalForm": "Is i boks",
+          "list": [
+            "is på boks",
+            "is",
+            "iskrem"
+          ]
+        },
+        {
+          "canonicalForm": "Porsjonsis",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kjeks",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ferske kaker",
+          "list": [
+            "kaker",
+            "kake"
+          ]
+        },
+        {
+          "canonicalForm": "Småkaker",
+          "list": []
+        },
+        {
+          "canonicalForm": "Boller og lefser",
+          "list": [
+            "boller",
+            "lefser"
+          ]
+        },
+        {
+          "canonicalForm": "Potetchips og snacks",
+          "list": [
+            "potetchips",
+            "snacks"
+          ]
+        },
+        {
+          "canonicalForm": "Sjokolade",
+          "list": []
+        },
+        {
+          "canonicalForm": "Godteri",
+          "list": []
+        },
+        {
+          "canonicalForm": "Nøtter",
+          "list": []
+        },
+        {
+          "canonicalForm": "Tyggis og pastiller",
+          "list": [
+            "tyggis",
+            "pastiller"
+          ]
+        },
+        {
+          "canonicalForm": "Bleier",
+          "list": []
+        },
+        {
+          "canonicalForm": "Grøt",
+          "list": []
+        },
+        {
+          "canonicalForm": "Våtservietter og såpe",
+          "list": [
+            "våtservietter",
+            "såpe"
+          ]
+        },
+        {
+          "canonicalForm": "Smokker og tåteflasker",
+          "list": [
+            "smokker",
+            "tåteflasker"
+          ]
+        },
+        {
+          "canonicalForm": "Morsmelkerstatning",
+          "list": []
+        },
+        {
+          "canonicalForm": "Smoothie, yoghurt og mellommåltid",
+          "list": [
+            "yoghurt",
+            "mellommåltid"
+          ]
+        },
+        {
+          "canonicalForm": "Middagsglass",
+          "list": []
+        },
+        {
+          "canonicalForm": "Bursdag",
+          "list": []
+        },
+        {
+          "canonicalForm": "Aktiviteter for barn",
+          "list": [
+            "for barn"
+          ]
+        },
+        {
+          "canonicalForm": "Såpe",
+          "list": []
+        },
+        {
+          "canonicalForm": "Shampo og hårprodukter",
+          "list": [
+            "shampo",
+            "shampoo",
+            "hårprodukter",
+            "hårprodukt"
+          ]
+        },
+        {
+          "canonicalForm": "Krem",
+          "list": []
+        },
+        {
+          "canonicalForm": "Solkrem",
+          "list": []
+        },
+        {
+          "canonicalForm": "Barnesåpe og babyolje",
+          "list": [
+            "barnesåpe",
+            "babyolje"
+          ]
+        },
+        {
+          "canonicalForm": "Sportsdrikke",
+          "list": []
+        },
+        {
+          "canonicalForm": "Proteinpulver og styrke",
+          "list": [
+            "proteinpulver",
+            "styrke"
+          ]
+        },
+        {
+          "canonicalForm": "Måltidserstatter",
+          "list": []
+        },
+        {
+          "canonicalForm": "Proteinsnacks og vitamingodis",
+          "list": [
+            "proteinsnacks",
+            "vitamingodis"
+          ]
+        },
+        {
+          "canonicalForm": "Kosttilskudd",
+          "list": []
+        },
+        {
+          "canonicalForm": "Vektkontroll",
+          "list": [
+            "slankemiddel"
+          ]
+        },
+        {
+          "canonicalForm": "Tannpleie",
+          "list": []
+        },
+        {
+          "canonicalForm": "Deodorant",
+          "list": []
+        },
+        {
+          "canonicalForm": "Bind og tamponger",
+          "list": [
+            "bind",
+            "tamponger"
+          ]
+        },
+        {
+          "canonicalForm": "Bomull og ansiktsrens",
+          "list": [
+            "bomull",
+            "ansiktsrens"
+          ]
+        },
+        {
+          "canonicalForm": "Barbering",
+          "list": []
+        },
+        {
+          "canonicalForm": "Prevensjon",
+          "list": [
+            "kondomer",
+            "angrepille",
+            "kondom",
+            "angrepiller",
+            "graviditetstest"
+          ]
+        },
+        {
+          "canonicalForm": "Legemidler",
+          "list": [
+            "legemiddel"
+          ]
+        },
+        {
+          "canonicalForm": "Plaster",
+          "list": []
+        },
+        {
+          "canonicalForm": "Helsekost",
+          "list": []
+        },
+        {
+          "canonicalForm": "Proteinbar og müslibar",
+          "list": [
+            "proteinbar",
+            "muslibar",
+            "müslibar"
+          ]
+        },
+        {
+          "canonicalForm": "Nikotinprodukter",
+          "list": []
+        },
+        {
+          "canonicalForm": "Klesvask",
+          "list": []
+        },
+        {
+          "canonicalForm": "Vaskemidler",
+          "list": []
+        },
+        {
+          "canonicalForm": "Toalettpapir og tørkerull",
+          "list": [
+            "toalettpapir",
+            "tørkerull"
+          ]
+        },
+        {
+          "canonicalForm": "Oppvask",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kluter, svamper og hansker",
+          "list": [
+            "kluter",
+            "svamper",
+            "hansker"
+          ]
+        },
+        {
+          "canonicalForm": "Magasiner",
+          "list": [
+            "blad",
+            "blader",
+            "magasin"
+          ]
+        },
+        {
+          "canonicalForm": "Bøker",
+          "list": []
+        },
+        {
+          "canonicalForm": "Poser og folie",
+          "list": [
+            "poser",
+            "folie"
+          ]
+        },
+        {
+          "canonicalForm": "Diverse husholdning",
+          "list": [
+            "husholdning"
+          ]
+        },
+        {
+          "canonicalForm": "Undertøy",
+          "list": [
+            "truser",
+            "boksere"
+          ]
+        },
+        {
+          "canonicalForm": "Engangs og Servietter",
+          "list": [
+            "engangsservietter",
+            "servietter",
+            "engangs"
+          ]
+        },
+        {
+          "canonicalForm": "Kjøkkenredskap",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kontor",
+          "list": []
+        },
+        {
+          "canonicalForm": "Insektmiddel",
+          "list": []
+        },
+        {
+          "canonicalForm": "Batterier",
+          "list": []
+        },
+        {
+          "canonicalForm": "Hundemat",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kattemat",
+          "list": []
+        },
+        {
+          "canonicalForm": "Fuglemat",
+          "list": []
+        },
+        {
+          "canonicalForm": "Gnagermat",
+          "list": []
+        },
+        {
+          "canonicalForm": "Snus",
+          "list": []
+        },
+        {
+          "canonicalForm": "Sigaretter",
+          "list": [
+            "sigarett",
+            "røyk"
+          ]
+        },
+        {
+          "canonicalForm": "Lightere og fyrstikker",
+          "list": [
+            "lightere",
+            "fyrstikker"
+          ]
+        },
+        {
+          "canonicalForm": "Sigarer og Sigarillos",
+          "list": [
+            "sigarer",
+            "sigar",
+            "sigarillos"
+          ]
+        },
+        {
+          "canonicalForm": "Rulletobakk",
+          "list": []
+        },
+        {
+          "canonicalForm": "Skråtobakk",
+          "list": []
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "GetRecipe",
+      "subLists": [
+        {
+          "canonicalForm": "Få ingredienser",
+          "list": []
+        },
+        {
+          "canonicalForm": "Hverdag",
+          "list": [
+            "hverdags",
+            "hverdagsoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Mat som lager seg selv",
+          "list": [
+            "lager seg selv"
+          ]
+        },
+        {
+          "canonicalForm": "Taco",
+          "list": [
+            "tacos",
+            "tacooppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Lam og kje",
+          "list": [
+            "lam",
+            "lamoppskrift",
+            "lammeoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Grill",
+          "list": [
+            "grilloppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Lune retter",
+          "list": [
+            "lune",
+            "luneoppskrift",
+            "lunoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Pizza",
+          "list": [
+            "pizzaoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Snille smaker",
+          "list": [
+            "snille",
+            "snilleoppskrifter",
+            "snilloppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Storfekjøtt",
+          "list": [
+            "storfe",
+            "storfeoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Bra restemat",
+          "list": [
+            "restemat",
+            "restmat",
+            "rest"
+          ]
+        },
+        {
+          "canonicalForm": "Middag",
+          "list": [
+            "middager",
+            "middagsoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Kos",
+          "list": [
+            "koseoppskrift",
+            "kosoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Salater",
+          "list": [
+            "salat"
+          ]
+        },
+        {
+          "canonicalForm": "Pasta",
+          "list": [
+            "pastaer",
+            "pastaoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Supper",
+          "list": [
+            "suppe",
+            "suppeoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Kylling",
+          "list": [
+            "kyllinger",
+            "kyllingoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Fisk",
+          "list": [
+            "fesk",
+            "fiskeoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Sjømat",
+          "list": [
+            "sjømatoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Vegetar",
+          "list": [
+            "vegetariansk",
+            "vegansk",
+            "vegan",
+            "vegetaroppskrift",
+            "veganoppskrift",
+            "veganskoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Barnevennlig",
+          "list": [
+            "barn",
+            "barnemat",
+            "barneoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Tilbehør",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kaker",
+          "list": [
+            "kake",
+            "kakeoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Dessert",
+          "list": [
+            "desserter",
+            "dessertoppskrift"
+          ]
+        },
+        {
+          "canonicalForm": "Ferdig på 15 minutter",
+          "list": [
+            "15"
+          ]
+        }
+      ],
+      "roles": [
+        "oppskrift"
+      ]
+    },
+    {
+      "name": "Greeting",
+      "subLists": [
+        {
+          "canonicalForm": "hei",
+          "list": [
+            "hallo",
+            "god dag",
+            "hello",
+            "hi",
+            "ey",
+            "yo",
+            "hei",
+            "hey",
+            "heya",
+            "halo"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "WhatsYourName",
+      "subLists": [
+        {
+          "canonicalForm": "hva er navnet ditt?",
+          "list": []
+        },
+        {
+          "canonicalForm": "hva heter du?",
+          "list": []
+        },
+        {
+          "canonicalForm": "hvem er du?",
+          "list": []
+        },
+        {
+          "canonicalForm": "navnet ditt?",
+          "list": []
+        },
+        {
+          "canonicalForm": "navnet ditt er?",
+          "list": []
+        },
+        {
+          "canonicalForm": "hva er du?",
+          "list": []
+        },
+        {
+          "canonicalForm": "heter du?",
+          "list": []
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [
+    {
+      "name": "Legg til",
+      "mode": true,
+      "words": "legg til,registrer,legg inn,gi meg,få en,kan du gi meg,kan jeg få,vis,se,hei,har dere,har du,hvordan,anbefale,anbefalning,anbefalninger,altså,få,hvis,når,kan jeg få et,kan,kan du,kan dere,har,hvorfor,hvem,dere,nårtid,hm,hmm,hallo,hei du,du,haha,mm,er,så,hvilke,jeg vil heller,vil heller,heller,andre,finne,skal,blir,skulle,fått,kanskje,burde,måtte,helt,snart,gjorde,allerede,gjør,gjort,har du noe,fortell,fortell noe,noe,hadde,vært,kult,stilig,tøft,awesome,cool,utrolig,veldig,vegetarianer,veganer,vegan,vegetarian,vegetarier,vegans,ditt,de",
+      "activated": true
+    },
+    {
+      "name": "Legg til allergi",
+      "mode": false,
+      "words": "allergi,allergen,allergier,allergener,melk,fisk,egg,soya,skalldyr,peanøtter,selleri,sennep,sesamfrø,sulfitt,svoveldioksid,lupin,bløtdyr,korn,gluten,glutenholdig",
+      "activated": true
+    },
+    {
+      "name": "Legg til vare",
+      "mode": false,
+      "words": "vare,produkt,produkter,varer,middag,tips,forslag,mat",
+      "activated": true
+    },
+    {
+      "name": "Deny",
+      "mode": false,
+      "words": "feil,galt,nei,melk,egg,fisk,neh,senere,mat,middag",
+      "activated": true
+    },
+    {
+      "name": "Confirm",
+      "mode": false,
+      "words": "riktig,stemmer,ja,melk,egg,fisk,middag,mat,vegetarmat,veganmat,vegetar,vegan,veganmiddag,vegetarmiddag,kosher,vegetarian,veganermiddag?,vegetarmiddag?,veganmiddag?,middagtips,middagsforslag,middagstips?,middagsforslag?,oppskrift,oppskrifter,hvem er du,er du,er du?",
+      "activated": true
+    },
+    {
+      "name": "Oppskrift",
+      "mode": false,
+      "words": "oppskrifter,middagstips,middag,oppskrift,middagtips,tips til middag,middagsforslag,forslag til middag,middagsforslag?,forslag til middag?",
+      "activated": false
+    },
+    {
+      "name": "Takk",
+      "mode": false,
+      "words": "jatakk,neitakk,jotakk,adjø,farvel,takk,hade,hadet,takk som spør,takk for det,navn,navnet",
+      "activated": true
+    },
+    {
+      "name": "Absolutt",
+      "mode": false,
+      "words": "absolutt,absolutt ikke",
+      "activated": true
+    },
+    {
+      "name": "hvorfor",
+      "mode": false,
+      "words": "hvorfor,hvorfor ikke",
+      "activated": true
+    },
+    {
+      "name": "Pål",
+      "mode": true,
+      "words": "pål",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "planlegg {GetRecipe}",
+      "intent": "GetRecipe"
+    },
+    {
+      "pattern": "{GetRecipe}oppskrift",
+      "intent": "GetRecipe"
+    },
+    {
+      "pattern": "finn {GetRecipe}oppskrift",
+      "intent": "GetRecipe"
+    },
+    {
+      "pattern": "jeg vil ha en {GetRecipe}oppskrift",
+      "intent": "GetRecipe"
+    },
+    {
+      "pattern": "{GetRecipe} oppskrift",
+      "intent": "GetRecipe"
+    },
+    {
+      "pattern": "{GetRecipe} oppskrifter",
+      "intent": "GetRecipe"
+    },
+    {
+      "pattern": "finn {GetRecipe} oppskrift",
+      "intent": "GetRecipe"
+    }
+  ],
+  "utterances": [
+    {
+      "text": ", ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": ". kan jeg komme med produktforslag til sortimentet? jeg vil gjerne ha coca-cola vaniljebrus!",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "a jeg er ikke helt forøyd med de du ga meg nå påminner-pål",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "abort",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "absolutt",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "absolutt ikke",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "add allergies",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "add allergy",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "adjø",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "adjø og farvel",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "adjø!",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "æ træng hjæl",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "æ træng hjælp",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "aften",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "aldeles utmerket",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "alt bra?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "asdfasdfaqsdf",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "asdfasdfasdf",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "asdfasdfasdfasdfasdf",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "avbryt",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "avbryt¨",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "avslutt",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "bare bra",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "bare bra, takk",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "barnebøker",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "bind",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "blir idiot",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "bye",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "cashpoints",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dæven",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "det er det",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "det er det ikke",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "det er dritstiling",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "det er feil",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "det er galt",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "det er kult",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "det er nok",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "det er nok nå",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "det er rett",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "det er riktig",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "det ga jo ingen mening!",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "det hadde vært fint",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "det stemmer",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "det var alt",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "det vil jeg",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "det vil jeg ikke",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "digg til middag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "disregard",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "drikkevarer",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "drit i det",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "drit i dette",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "du er dum som faen!",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "du er en livredder",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "du fungerer ikke pål, hva er galt?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "du må forklare",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "du må hjelpe meg",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "du suger",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "eeh",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "egg",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "eier kolonial?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "en annen gang",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "en kompis av meg, stian, behøver små kondomer og lurer på om dere har dette på lager?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "er alt bra?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "er dere dyrere enn vanlig butikk?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "er det sant?",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "er du der?",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "er du en bot?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "er du et menneske?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "er du helt dum eller?",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "er du helt skækk eller?",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "er du helt skækk?",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "er du menneske?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "er du morsom?",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "er du oppdatert?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "er du sikker?",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "er kolonial dyrere enn vanlig butikk?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "er kolonial dyrt?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ey",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "få en oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "få oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "faen",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "familiemiddag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "fantastisk",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "farvel",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "farvel!",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "feil",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "fett",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "finn kake oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "finn oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "finn taco",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "finn taco oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "fisk egg",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "fiskemiddag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "flere",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "food",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "for helvete svar da!",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "for noe dritt",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "forklar",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "forklar meg hva du kan",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "forslag middag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "forstår ikkje",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "fortell et råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "fortell meg en vits",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "fortell meg et råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "fortell meg noe interessant",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "fortell meg noe morsomt",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "fortell noe kult",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "fortell noe morsomt",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "fortell noe spennende",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "fortell om retur",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "fuck da",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "ga ikke mening",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "gå tilbake",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "galt",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "går det bra med deg?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "gbye",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "get started",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "gi et visdomsord",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "gi faen",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "gi mæ et råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "gi mæ oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "gi mæ oppskrifta",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "gi meg ei oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "gi meg en oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "gi meg enda en vits",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "gi meg et råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "gi meg et visdomsord",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "gi meg flere",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "gi meg heller et råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "gi meg mer",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "gi meg noen oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "gi meg oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "gi meg oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "gjerne",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "gjerne det",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "gjerne noen flere oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "glem det",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "god aften",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "god dag",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "god morgen",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "god natt",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "greit",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "greit. fortell meg heller noe morsomt, pål",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "grønnsaker",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "ha det bra pål",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "hadde vært snillt om du ha meg en oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "hade",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "hade bra",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "hade pål",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "hadet",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "hadet bra",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "hadet på badet",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "hadet!",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "hæææ?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hærlig, takk!",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "haha, hva faen?",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "hallo",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hallo, pål",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "har dere ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "har dere brød",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har dere cashpoints?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "har dere kaffe?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har dere noe brød?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har dere noen melkeprodukter?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har dere samarbeid med rema 1000?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "har dere taco?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har dere tacooppskrift?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har dere utlevering?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "har det fint",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "har du det bra?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "har du det fint?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "har du en god vits?",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "har du en oppskrift?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du en vits på lager?",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "har du en vits?",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "har du et godt råd?",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "har du et kult visdomsord?",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "har du et navn?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "har du flere?",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "har du god råd?",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "har du graviditedstest?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har du humor?",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "har du kjøttmiddag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du kondomer?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har du middagsforslag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du middagstaco?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du middagstips?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du noe med pære?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har du noe morsomt å si?",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "har du noen ideer til hva jeg kan ha til middag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du noen kondomer?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har du noen kule middagtips?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du noen kule råd?",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "har du noen middagstips?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du noen morsomheter å komme med?",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "har du noen oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du noen oppskrifter?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du noen råd?",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "har du oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du oppskrifter?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du pølse?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har du pølser?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har du siggaretter?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "har du tacomiddag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har du tacooppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "har et spørsmål",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hasdfasdf",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hei",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hei på deg, pål",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hei pål",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hei pål boy, har du et middagstips eller to?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "hei pål, har du et middagtips?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "hei pål, hvordan har du det?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "hei pål, kan jeg få en oppskrift?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "hei, har dere cashpoints?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hei, har dere pølse?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "hei, har du en oppskrift?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "hei, har du noen gode brød å anbefale?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "hei, har du noen oppskrifter?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "hei, har du noen varer å anbefale?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "hei, jeg har en kompis, stian, som behøver veldig små kondomer. har dere dette inne?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "heksebrygg",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "helt feil",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "helt riktig",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "helvete",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "heter du?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "heya",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hiya",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hjælp",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hjælp mæ",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hjeeelp",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hjelp",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hjertelig takk",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "hjertligst!",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "hmm, er du sikker?",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "hørs",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "hoy",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hva",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hva ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hva er åpningstidene?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hva er deres kontaktinformasjon?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hva er du",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hva er du, påminner-pål?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hva er du?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hva er navnet ditt",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hva er navnet ditt?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hva foregår?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hva gjør du?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hva heter du",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hva heter du?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hva i helvete",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "hva kan du",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hva kan du gjøre for meg?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hva kan du gjøre?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hva kan du?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hva kan jeg ha til middag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "hva med holdbarhet?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hva med kaffe",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "hva med?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hva skal jeg ha til middag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "hva skal jeg spise?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "hvem",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvem ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvem ær du",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hvem ær du?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hvem eier kolonial.no?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvem eier kolonial?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvem er det som eier kolonial.no?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvem er du",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hvem er du?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hvem er pål?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hvem?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvilke",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hvilke allergier er registrert på meg?",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "hvilke funksjonaliteter har du?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hvilke leveringstider har dere?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvor",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvor ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvor du er dum?",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "hvor gammel er du pål?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "hvor ligger butikken?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan er det med ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan er det med eierskap?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan er det med levering?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan er det med pris?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan er holningen til holdbarhet i kolonial?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan fungerer ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan fungerer cashpoints?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan fungerer levering?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan går det med deg?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "hvordan går det, pål?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "hvordan går det?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "hvordan har du det?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "hvordan kan du hjelpe meg",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hvordan kan du hjelpe meg?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hvordan kan jeg ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hvordan står det til, pål?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "hvordan står det til?",
+      "intent": "HarDetFint",
+      "entities": []
+    },
+    {
+      "text": "hvorfor ikke",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ikke bry deg med det",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "ikke intent 1",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "ikke nå",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "ikke smart nok enda, du",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "ingen",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "is",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "ja",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ja dette er riktig",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ja du kunne jeg fått en tacooppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "ja jeg er ikke helt forøyd med de du ga meg nå",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ja jeg ønsker flere",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ja takk",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ja takk gjerne det",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ja takk jeg skulle gjerne hatt oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "ja takk, det var alt påminner-pål",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ja takk, det vil jeg",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jada",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jævla",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "jævla dritt",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "jatakk",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jatakk, det var alt",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jatakk, det vil jeg",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jeg er sulten",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "jeg finner ikke på noe å ha til middag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "jeg forstår absolutt ingen ting",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "jeg forstår absolutt ingen ting av dette",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "jeg forstår ikke",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "jeg forstår ikke dette",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "jeg har en allergen",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg har en allergi",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg har et allergi",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg har et spørsmål om",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "jeg har fått feil varer, kan jeg returnere?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "jeg har fått nok",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "jeg har fått nok nå",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "jeg har lyst på noen andre varer enn det som er på nettsiden. kan jeg komme med produktforslag til sortimentet? jeg vil gjerne ha coca-cola vaniljebrus!",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "jeg lurer på ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "jeg må ha hjelp",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "jeg må ha rulletobakk!",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "jeg må registrere et allergen",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg må stikke, vi snakkes",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "jeg ønsker flere",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jeg ønsker to oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "jeg reagerer, kan jeg legge til en allergi?",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg trenger å trengistrere en allergi",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg vil allergen",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg vil bli påminnet allergen",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg vil bli påminnet allergi",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg vil gjerne bli påminnet et allergen",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg vil gjerne ha en oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "jeg vil gjerne ha en oppskrift på kos",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "jeg vil gjerne ha et råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "jeg vil gjerne ha noen oppskrifter?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "jeg vil ha en oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "jeg vil ha flere",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jeg vil ha mat",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "jeg vil ha mer",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jeg vil heller ha et råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "jeg vil ikke",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "jeg vil ikke ha flere",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "jeg vil ikke ha flere nå",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "jeg vil ikke ha mer av dette",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "jeg vil ikke mer",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "jeg vil legge til en allergi",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg vil registrere en allergi",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "jeg vil se på kaffe",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "jeg vil veldig gjerne høre en morsom vits",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "jeg vil vite mer om selskapet",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "jepp",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jepp sa jeg",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jgeg forstår ikke en dritt",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "jo",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "joa",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jotakk",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "jukser du din jævel? =p",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "ka e navnet dett",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "ka e navnet dett?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "ka e navnet ditt",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "ka e navnet ditt?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "kæm e du",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "kæm e du?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "kake oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kake oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kakeoppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kake-oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kaker",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kan æ få ei oppskreft",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kan æ få ei oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kan æ få ei oppskrift?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kan du avslutte dette tullet",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "kan du forklare",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "kan du forklare ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kan du forklare levering?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kan du forklare?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "kan du fortelle en vits?",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "kan du fortelle meg litt om cashpoints tilbudene?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kan du fortelle om cashpoints?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kan du gi meg et råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "kan du gi meg et råd?",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "kan du gje meg ei oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kan du levere på døren?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "kan i få en oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få brus?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få en oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få en oppskrift på",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få en vits?",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få et",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få et råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få et råd?",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få flere",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få flere?",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få middagstips?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få se",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "kan jeg få se på varer",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "kan jeg fjerne allergiene mine?",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "kan jeg legge til en allergi",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "kanskje senere",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "kjempebra",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "kjempekult",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "kjøtt",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "kjøttmiddag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kjøttmiddag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "klesvask",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "kosoppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kult",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "kult ass",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "kult, gi meg mer",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "kult, hva heter du?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "kult, hva med middag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "kult, hva med noen gode råd til en stakkars mann?",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "kult, hva med noen gode råd?",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "kundeservice",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "kutt",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "la meg få en oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "lam",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "legg inn allergener",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "legg inn allergi",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "legg inn allergier",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "legg inn vare",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "legg til allergen",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "legg til allergener",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "legg til allergi",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "legg til allergier",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "legg til alleriger",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "legg til varer",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "legge til varer, hva vil du?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "levering hjem",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "leveringspunkt?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "leveringssteder?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "liste",
+      "intent": "ShowList",
+      "entities": []
+    },
+    {
+      "text": "lys",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "må jeg ha noe klart når dere kommer?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "maaat",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "mat",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "mer",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "mere",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "mhm",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "midagsforslag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middags tips",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middags tips?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagsdigg",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagsforlsag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagsforslag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagsforslag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagskos",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagsoppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagstaco",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagstaco?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagstip",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagstips",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagstips?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "middagtips?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "millioner takk",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "morn",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "morna, pål",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "morna, pål!",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "nå er det nok",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "nah",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nåkka å fylle kroppen med",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "når",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "når har dere",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "når har dere ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "når har dere leveringstid?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "navnet dett",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "navnet dett?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "navnet ditt",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "navnet ditt?",
+      "intent": "WhatsYourName",
+      "entities": []
+    },
+    {
+      "text": "neh",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nei",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nei takk",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nei takk jeg er fornøyd",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nei takk jeg skulle gjerne hatt oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "nei takk, det var alt påminner-pål",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nei takk, det vil jeg ikke",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nei takk, jeg vil heller ha oppskrift på middag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "nei takk, jeg vil heller ha plaster",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "nei, har du noen kondomer?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "nei, ikke du heller",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nei, jeg vil ikke ha flere",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nei, nå skal du være en helvetes smart faen! og du bør forstå hva jeg spør om selv om denne setningen er helt horribel å tolke! jeg har lyst på noen andre varer enn det som er på nettsiden. kan jeg komme med produktforslag til sortimentet? jeg vil gjerne ha coca-cola vaniljebrus! fatter du det? hÆ!? eller er du fortsatt helt korka?",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "neida",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nein",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "neitakk",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "neitakk, det holder",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "neitakk, det var alt",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "neitakk, det vil jeg ikke",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nice",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "no",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "noe å fylle kroppen med",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "noe mat",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "noen middagsforlsag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "noen middagsforslag å anbefale?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "noen middagsforslag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "noen middagstips?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "nok nå",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "nope",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "øl",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "oppskrift på bolognese",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "oppskrifter?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "påminn meg om allergen",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "påminn meg om allergi",
+      "intent": "AddAllergy",
+      "entities": []
+    },
+    {
+      "text": "pizza?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "planlegg middag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "plaster",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "pls gi meg oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "pls slutt",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "prisnivå?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "produktforslag",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "råbra",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "råfett",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "riktig",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "så fett",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "så snilt",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "så snilt av deg",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "så snilt!",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "så utrolig fett",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "så utrolig kult",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "samarbeider dere med noen?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "såpe",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "satan",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "satan i helvete",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "satan som jeg plages med deg!",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "satans piss",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "se bort fra",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "se liste",
+      "intent": "ShowList",
+      "entities": []
+    },
+    {
+      "text": "se liste sortert",
+      "intent": "ShowList",
+      "entities": []
+    },
+    {
+      "text": "se lsite sortert",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "sees!",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "senere",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "sennep",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "si noe smart",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "si sees, farvel!",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "sigar",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "sigarer",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "sigaretter",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "sikker",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sikkert",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sjekk matvare",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "skjønne ikkje",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "skjønner faen ingen ting",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "skjønner ikke",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "skulle gjerne hatt noen oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "slettes ikke",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "slutt nå",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "småkaker",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "snakk med kundeservice",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "snakk med menneske",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "snakke med kundeservice",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "snakke med menneske",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "snakkes",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "snakkes en annen gang",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "snus",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "spørsmål",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "start",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "stemmer",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "stemmer ikke",
+      "intent": "Deny",
+      "entities": []
+    },
+    {
+      "text": "stilig",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "stop",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "stopp",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "stopp dette tullet",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "stopp nå",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "strålende",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "sulten",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "supertøft",
+      "intent": "IkkeSant",
+      "entities": []
+    },
+    {
+      "text": "svartens",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "svartens dritt",
+      "intent": "Fysj",
+      "entities": []
+    },
+    {
+      "text": "taaakk",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "tacomiddag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "tacomiddag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "tak",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "takk",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "takk gjerne",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "takk gjerne det",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "takk kjære deg",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "takk pål",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "takk takk",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "takk!",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "takk.",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "takker",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "takkk",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "tilbake",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "tips",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "tips til middag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "tips til middag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "tips?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "tittei",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "tja",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "tøft, gi meg mer",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "tøft, jeg vil gjerne se melk",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "tøft. jeg vil gjerne se melk",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "trenger hjelp",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "tusen millioner takk",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "tusen takk",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "utmerket",
+      "intent": "YoureWelcome",
+      "entities": []
+    },
+    {
+      "text": "vasdfasdfasdf",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "veganermat?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "veganermiddag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "veganmat",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "veganmiddag",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "veganmiddag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vegetarianermiddag?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vegetarmat",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vegetarmat?",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vennligst gi meg en oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vennligst gi meg mer",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "vennligst stopp",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "vi høres!",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "vi hørs",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "vi sees",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "vi sees, adjø!",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "vil gjerne ha flere",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "vil gjerne ha hjelp",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "vil gjerne ha mer",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "vil gjerne ha oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vil ha bøker",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "vil ha ei oppskrfit",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vil ha en oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vil ha et råd",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "vil ha oppskrift",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vil ha taco",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vil vite mer om",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "vis kattemat",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "vis liste",
+      "intent": "ShowList",
+      "entities": []
+    },
+    {
+      "text": "vis matvare",
+      "intent": "AddItem",
+      "entities": []
+    },
+    {
+      "text": "vis meg masse middager",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "vis oppskrifter",
+      "intent": "GetRecipe",
+      "entities": []
+    },
+    {
+      "text": "visdomsord",
+      "intent": "Advice",
+      "entities": []
+    },
+    {
+      "text": "vits",
+      "intent": "Joke",
+      "entities": []
+    },
+    {
+      "text": "voy",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "yayea",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ye",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ye bruh",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "yea",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "yep",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "you should not have an issue",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "yup",
+      "intent": "Confirm",
+      "entities": []
+    }
+  ]
+}
